@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Scheherazade+New&display=swap');
+
+body {
+    font-family: 'Scheherazade New', serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #3d2b1f;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 10px solid;
+    border-image-source: url('images/batik-border.png');
+    border-image-slice: 30;
+    border-image-repeat: round;
+}
+
+header h1 {
+    font-size: 26px;
+    color: #8b0000;
+}
+
+header h2 {
+    font-size: 36px;
+    font-family: 'Great Vibes', cursive;
+    color: #a52a2a;
+}
+
+.arabic {
+    font-size: 28px;
+    font-family: 'Scheherazade New', serif;
+    color: #8b0000;
+}
+
+.details {
+    margin: 20px 0;
+}
+
+.info {
+    margin-bottom: 15px;
+}
+
+button {
+    background: #a52a2a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #8b0000;
+}
+
+.doa {
+    background: rgba(255, 240, 240, 0.8);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
